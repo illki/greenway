@@ -1,0 +1,6 @@
+h1 {color:red;}
+
+.company_details {
+    display: flex;
+    align-items: center;
+  }

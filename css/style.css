@@ -1,13 +1,43 @@
 /* This is a single-line comment */
-h1 {
-  color: red;
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Garamond, EB Garamond, Georgia, serif;
+  font-size: 2.5em;
+  margin-bottom: 0;
 }
 
-.company_details {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.freedom {
+  list-style: inside;
+  margin: 0px 30px 0px;
+  }
+
+section.company_details {
   display: flex;
+}
+
+section aside {
+  align-items: center;
 }
 
 ul.img_gallery {
   display: flex;
   flex-wrap: wrap;
+}
+
+.nav_footer {
+  display: flex;
 }

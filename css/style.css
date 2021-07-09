@@ -1,6 +1,13 @@
-h1 {color:red;}
+/* This is a single-line comment */
+h1 {
+  color: red;
+}
 
 .company_details {
-    display: flex;
-    align-items: center;
-  }
+  display: flex;
+}
+
+ul.img_gallery {
+  display: flex;
+  flex-wrap: wrap;
+}

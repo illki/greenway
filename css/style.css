@@ -3,15 +3,75 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+:is(h1, h2, h3, h4, h5, h6) {
   font-family: Garamond, EB Garamond, Georgia, serif;
-  font-size: 2.5em;
+  font-size: 3em;
+  margin-top: 0;
   margin-bottom: 0;
+  color: #92c701;
+  }
+
+p {
+    color: #233000;
+    margin-top: 0;
+  }
+
+header {
+  background-image: url("../img/beach_and_forest.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+header * {
+  color:white;
+}
+
+header {
+  padding-top: 0;
+}
+.logo {
+  font-size: 3em;
+  font-family: Garamond, EB Garamond, Georgia, serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+nav {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 150px;
+  
+}
+
+nav>div {
+  margin-left: 10px;
+}
+
+nav>ul {
+  display: flex;
+  justify-content:right;
+}
+
+nav li {
+  padding: 0.5rem;
+}
+
+nav p {
+  font-size: 0.7em;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 ul {
@@ -19,23 +79,51 @@ ul {
   margin: 0;
   padding: 0;
 }
+nav+ul {
+  margin-bottom: 150px;
+}
 
+@media (min-width: 760px) {
+   
+    ul.company_details {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 ul.freedom {
   list-style: inside;
   margin: 0px 30px 0px;
+}
+
+main {
+  text-align: center;
+}
+
+li.company_details {
+  padding: 10px 20px 10px;
+}
+
+li.company_details p{
+  font-size: 1rem;
+  line-height: 0.5rem;
+  
   }
 
-section.company_details {
-  display: flex;
+section.img_gallery {
+  margin-top: 40px;
+  text-align: center;
 }
 
-section aside {
-  align-items: center;
+section.img_gallery h2 {
+  margin-bottom: 40px;
 }
 
-ul.img_gallery {
-  display: flex;
-  flex-wrap: wrap;
+
+
+section.brand_gallery {
+  text-align: center;
+  margin-top: 40px;
 }
 
 .nav_footer {

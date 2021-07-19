@@ -18,323 +18,306 @@
     <meta name="author" content="Ilya Kirillov" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/siema.min.js"></script>
+    <script defer src="js/index.js"></script>
     <title>Greenway сайт партнера Юлии Кирилловой</title>
   </head>
 
   <body>
     <header>
-      <h1>Greenway</h1>
-      <p>сайт партнера Юлии Кирилловой</p>
-      <nav>
-        <ul>
-          <li><a href="/index.html">Начало</a></li>
-          <li><a href="#partner">Стань партнером</a></li>
-          <li>
+      <nav class="">
+        <div>
+          <a class="logo" href="index.html">Greenway</a>
+          <p class="">сайт партнера Юлии Кирилловой</p>
+        </div>
+        
+        <ul class="navbar">
+          <li class=""><a href="/index.html">Начало</a></li>
+          <li class=""><a href="#partner">Стань партнером</a></li>
+          <li class="">
             <a href="https://mygreenway.eu/s/welcome_client/93a1001649b020"
               >Интернет магазин</a
             >
           </li>
         </ul>
       </nav>
-    </header>
 
-    <main>
       <!-- This is what client want to see in big font size -->
-      <section>
+      <ul>
         <h2>Уникальная, качественная продукция</h2>
         <p>
           для тех, кто выбрал осознанный экологичной подход к своей жизни.
           Забота о близких и о планете.
         </p>
         <a href="#become_partner">Узнать больше</a>
-      </section>
+      </ul>
 
       <!-- Some details of a Greenway company with flexbox css on them -->
-      <section class="company_details">
-        <aside class="company_details">
+      <ul class="company_details">
+        <li class="company_details">
           <h3>2017</h3>
           <p>год основания компании</p>
-          <p>47 стран присутствия на данный момент</p>
-        </aside>
-        <aside class="company_details">
+          <p>47 стран присутствия</p>
+        </li>
+        <li class="company_details">
           <h3>13 линеек</h3>
           <p>собственной продукции</p>
           <p>1.3 миллиона довольных клиентов</p>
-        </aside>
-        <aside class="company_details">
+        </li>
+        <li class="company_details">
           <h3>500000</h3>
           <p>партнеров по всему миру</p>
-          <p>и более 1млрд 200 млн руб товарооборота за месяц</p>
-        </aside>
-      </section>
+          <p>и более 1,2млрд руб оборота за месяц</p>
+        </li>
+      </ul>
+    </header>
 
+    <main>
       <!-- Image gallery with some Greenway products -->
       <section class="img_gallery">
         <h2>Некоторые продукты Greenway</h2>
-        <ul class="img_gallery">
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Aquamagic-products-photo_result.webp"
-              alt="Aquamagic products photo"
-              width="419"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Aquamatic-mop-2_result.webp"
-              alt="Aquamatic mop 2 photo"
-              width="419"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Aquamatic-mop_result.webp"
-              alt="Aquamatic mop photo"
-              width="419"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Foet-cosmetics_result.webp"
-              alt="Foet cosmetics photo"
-              width="393"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Healthberry-immunity-active_result.webp"
-              alt="Healthberry immunity photo"
-              width="393"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Nice-code-products-photo_result.webp"
-              alt="Nice code products photo"
-              width="393"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Revitall-B-complex_result.webp"
-              alt="Revitall B complex photo"
-              width="419"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Revitall-C-complex_result.webp"
-              alt="Revitall C complex photo"
-              width="419"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Sharme-kiss_result.webp"
-              alt="Sharme kiss photo"
-              width="524"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Sharme-Mango-sopa_result.webp"
-              alt="Sharme Mango photo"
-              width="393"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Sharme-products-photo_result.webp"
-              alt="Sharme products photo"
-              width="540"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Sharme-soap-photo_result.webp"
-              alt="Sharme soap photo"
-              width="420"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/TeaVital-photo_result.webp"
-              alt="TeaVital product photo"
-              width="419"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/TeaVital-Tibetan-Tea_result.webp"
-              alt="TeaVital Tibetan Tea photo"
-              width="393"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Welljab-Eco-Sorb_result.webp"
-              alt="Welljab Eco Sorb photo"
-              width="419"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Welljab-fulvic-acid_result.webp"
-              alt="Welljab fulvic acid photo"
-              width="386"
-              height="524"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_photos/Welljab-revital-gel_result.webp"
-              alt="Welljab revital gel photo"
-              width="393"
-              height="524"
-            />
-          </li>
-        </ul>
+        <!-- Images for Siema Image Carousel -->
+        <div class="siema">
+          <img
+            class="img_gallery"
+            src="img/products_photos/Aquamagic-products-photo_result.webp"
+            alt="Aquamagic products photo"
+            width="419"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Aquamatic-mop-2_result.webp"
+            alt="Aquamatic mop 2 photo"
+            width="419"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Aquamatic-mop_result.webp"
+            alt="Aquamatic mop photo"
+            width="419"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Foet-cosmetics_result.webp"
+            alt="Foet cosmetics photo"
+            width="393"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Healthberry-immunity-active_result.webp"
+            alt="Healthberry immunity photo"
+            width="393"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Nice-code-products-photo_result.webp"
+            alt="Nice code products photo"
+            width="393"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Revitall-B-complex_result.webp"
+            alt="Revitall B complex photo"
+            width="419"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Revitall-C-complex_result.webp"
+            alt="Revitall C complex photo"
+            width="419"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Sharme-kiss_result.webp"
+            alt="Sharme kiss photo"
+            width="524"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Sharme-Mango-sopa_result.webp"
+            alt="Sharme Mango photo"
+            width="393"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Sharme-products-photo_result.webp"
+            alt="Sharme products photo"
+            width="540"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Sharme-soap-photo_result.webp"
+            alt="Sharme soap photo"
+            width="420"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/TeaVital-photo_result.webp"
+            alt="TeaVital product photo"
+            width="419"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/TeaVital-Tibetan-Tea_result.webp"
+            alt="TeaVital Tibetan Tea photo"
+            width="393"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Welljab-Eco-Sorb_result.webp"
+            alt="Welljab Eco Sorb photo"
+            width="419"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Welljab-fulvic-acid_result.webp"
+            alt="Welljab fulvic acid photo"
+            width="386"
+            height="524"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_photos/Welljab-revital-gel_result.webp"
+            alt="Welljab revital gel photo"
+            width="393"
+            height="524"
+          />
+        </div>
+        <!-- Buttons for Siema Image Carousel -->
+        <div>
+          <button class="button is-rounded is-success is-inverted m-3 prev">prev</button>
+          <button class="button is-rounded is-success is-inverted m-3 next">next</button>
+        </div>
+
         <a href="https://mygreenway.eu/s/welcome_client/93a1001649b020"
-          >Интернет магазин</a
-        >
+            >Интернет магазин</a>
       </section>
 
       <!-- Image gallery with some Greenway brands logos -->
-      <section class="img_gallery">
-        <h2>Наши бренды</h2>
-        <ul class="img_gallery">
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_brands/Aquamatic_result.webp"
-              alt="Aquamatic logo"
-              width="463"
-              height="139"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_brands/AqvaMagic_result.webp"
-              alt="AqvaMagic logo"
-              width="466"
-              height="134"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_brands/Avital_result.webp"
-              alt="Avital logo"
-              width="468"
-              height="134"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_brands/BaoFiber_result.webp"
-              alt="BaoFiber logo"
-              width="453"
-              height="135"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_brands/Ecopam_result.webp"
-              alt="Ecopam logo"
-              width="463"
-              height="138"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_brands/Healthberry_result.webp"
-              alt="Healthberry logo"
-              width="468"
-              height="140"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_brands/iGen_result.webp"
-              alt="iGen logo"
-              width="462"
-              height="138"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_brands/Revitall_result.webp"
-              alt="Revitall logo"
-              width="464"
-              height="139"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_brands/Sharme_result.webp"
-              alt="Sharme logo"
-              width="465"
-              height="142"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_brands/Sharme-essential_result.webp"
-              alt="Sharme essential logo"
-              width="464"
-              height="141"
-            />
-          </li>
-          <li class="img_gallery">
-            <img
-              class="img_gallery"
-              src="img/products_brands/TeaVital_result.webp"
-              alt="TeaVital logo"
-              width="466"
-              height="136"
-            />
-          </li>
-        </ul>
+      <section class="brand_gallery">
+        <h2 class="">Наши бренды</h2>
+        <!-- Image gallery with some Greenway brands logos -->
+
+        <div>
+          <img
+            class="img_gallery"
+            src="img/products_brands/Aquamatic_result.webp"
+            alt="Aquamatic logo"
+            width="463"
+            height="139"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_brands/AqvaMagic_result.webp"
+            alt="AqvaMagic logo"
+            width="466"
+            height="134"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_brands/Avital_result.webp"
+            alt="Avital logo"
+            width="468"
+            height="134"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_brands/BaoFiber_result.webp"
+            alt="BaoFiber logo"
+            width="453"
+            height="135"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_brands/Ecopam_result.webp"
+            alt="Ecopam logo"
+            width="463"
+            height="138"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_brands/Healthberry_result.webp"
+            alt="Healthberry logo"
+            width="468"
+            height="140"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_brands/iGen_result.webp"
+            alt="iGen logo"
+            width="462"
+            height="138"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_brands/Revitall_result.webp"
+            alt="Revitall logo"
+            width="464"
+            height="139"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_brands/Sharme_result.webp"
+            alt="Sharme logo"
+            width="465"
+            height="142"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_brands/Sharme-essential_result.webp"
+            alt="Sharme essential logo"
+            width="464"
+            height="141"
+          />
+
+          <img
+            class="img_gallery"
+            src="img/products_brands/TeaVital_result.webp"
+            alt="TeaVital logo"
+            width="466"
+            height="136"
+          />
+        </div>
       </section>
 
       <div>
@@ -422,6 +405,5 @@
       </ul>
       <p>Copyright © 2021 сайт партнера компании Кирилловой Юлии id 9783431</p>
     </footer>
-    
   </body>
 </html>
